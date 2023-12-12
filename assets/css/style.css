@@ -3,22 +3,28 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(212, 206, 206);
+}
 header {
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
-h1 {
-    /* font-family: Dancing Script; */
-    color: rgb(180, 45, 45);
-    font-style: italic;
-    margin-bottom: 20px;
-    
-
+nav{
+    background-color: gray;
+    margin-left:30px ;
+    margin-right: 30px;
+    margin-top: 30px;
 }
+h1 {
+     font-family: Dancing Script;
+    margin-bottom: 20px;
+    }
 main {
     margin-left: 30px;
     margin-right: 30px;
+    background-color: aliceblue;
 }
 .imgprincipale{
     display: block;
@@ -26,3 +32,63 @@ main {
     margin-right: auto;
     width: 100%;
 }
+.big-img{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-bottom: 80px;
+}
+.titre  {
+    font-style: aliceblue;
+    width: 150px;
+    text-align: left;
+}
+h2{
+    font-family: 'Dancing script'cursive;
+    color: aliceblue;
+   
+}
+.titre p{
+    font-family: 'Roboto' sans-serif;
+    color: aliceblue;
+}
+.commander{
+    padding: auto;
+    background-color: #ffbe33; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #282525;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.commander:hover{
+    background-color: #e69c00;
+}
+.promotion1{
+    background-color: #222831;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+img{
+    border-radius:50%;
+    width: 30%;
+}
+.promotion2{
+    background-color: #222831;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+.apropo-denous p {
+    color: black;
+}
+
